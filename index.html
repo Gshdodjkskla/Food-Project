@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipe Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Delicious Recipes</h1>
+      <p>Explore different varieties of food from around the world!</p>
+    </header>
+
+    <!-- Recipe Grid -->
+    <section id="recipe-container" class="recipe-grid">
+      <div class="recipe-card">
+        <img src="./food1.jpg" alt="Veggie Delight" />
+        <h3>Veggie Delight</h3>
+      </div>
+      <div class="recipe-card">
+        <img src="./food2.jpeg" alt="Chicken Curry" />
+        <h3>Chicken Curry</h3>
+      </div>
+      <div class="recipe-card">
+        <img src="./food3.jpg" alt="Pasta Primavera" />
+        <h3>Pasta Primavera</h3>
+      </div>
+      <div class="recipe-card">
+        <img src="./food4.jpg" alt="Beef Steak" />
+        <h3>Beef Steak</h3>
+      </div>
+    </section>
+
+    <!-- Modal for displaying details -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2 id="recipe-title">Recipe Title</h2>
+        <img id="recipe-image" src="" alt="Recipe Image" />
+        <p id="recipe-veg-status">Vegetarian/Non-Vegetarian</p>
+        <p><strong>Price:</strong> $<span id="recipe-price">10.99</span></p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Food Recipe Page | Made with ❤️</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
